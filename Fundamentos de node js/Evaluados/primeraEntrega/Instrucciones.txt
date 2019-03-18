@@ -1,0 +1,13 @@
+1. Ingresar por la consola a la ruta de la carpeta "primeraEntraga".
+
+2. Para iniciar, escribir en la consola "node proyectouno", se listaran todos los cursos.
+
+3. Para inscribir a una persona a un curso escribir en consola "node proyectouno inscribir i=3 -n=paola -c=1234"; siendo i el identificador del curso, n nombre de la persona y c la cedula de la persona.
+
+4. Para inscribir a una persona a un curso escribir pero este no exite, se haran las validaciones correspondientes y se volveran a listar los cursos existentes.
+
+Ejemplo 
+"node proyectouno inscribir i=5 -n=paola -c=1234".
+
+
+

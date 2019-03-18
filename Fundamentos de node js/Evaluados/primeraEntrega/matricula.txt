@@ -1,0 +1,4 @@
+El estudiante paola
+ con cedula 123
+ se ha matriculado en el curso bases 2
+ tiene una duracion de 40 horas y un valor de $ 50.000 mil pesos

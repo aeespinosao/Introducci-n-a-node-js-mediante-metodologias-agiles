@@ -1,0 +1,4 @@
+Para ejecutar el protecto se ejutan los siguientes comandos
+* node datosCurso = Con este comando solo se listan los cursos disponibles
+* node datosCurso inscribir -i=1 -n=Mateo -c=12345= Con este comando se ingresa la informacion para la inscripcion de un curso
+Nota: Para que se cree el archivo la i tiene que ser igual a 1, 2 o 3 si es diferente de estos valores se muestra un mensaje indicando que que no existe informacion con el id ingresado

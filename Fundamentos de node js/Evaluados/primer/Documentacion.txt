@@ -1,0 +1,39 @@
+--INSTALACION--
+Para ejecutar el proyecto, extraemos el archivo primer.rar.
+Debes contar en tu dispositivo con un editor de texo, se recomienda sublime text o visual studio code y tener
+obligatoriamente Node.js instalado para poder instalar.
+
+--Pasos para ejecutar--
+Antes de poder ejecutar nuestro programa, tendremos que instalar el yargs para una correcta ejecucion. Para lograr
+la instalación seguiremos los siguientes pasos:
+
+1.)Abrir el ejecutador del dispositivo con los comandos windows + R y copiaremos las letras cmd
+2.)Dentro del cmd digita: cd desktop
+3.)luego cd primer
+4.)Finalmente digitaremos npm i yargs y le damos enter o intro, esperamos hasta que acabe la instalacion.
+5.)Cerramos el cmd.
+
+Para ejecutar los programas repetimos los pasos del 1 al 3 y continuamos con los siguientes pasos.
+
+1.)Escribimos node datos y le damos enter para ejecutar el archivo de la primera historia de usuario en la cual encontraras
+la información de los cursos disponibles.
+2.)Para matricularse en un curso digita: node datos inscribir anexando tu informacion personal que es obligatoria, de la
+siguiente manera:
+
+node curso inscribir -i= -n= -c=
+
+i= codigo del curso(Valores 1, 2, 3)
+n= nombre del estudiante
+c= documento de identificación
+
+la información la colocaremos despues del igual(=)
+
+Si la información es valida aparecera el siguiente mensaje: 
+ Curso valido, creando archivo
+ Se ha creado satisfactoriamente el archivo
+
+Finalmente si deseas validar la inscripción, iremos a la carpeta que extrajimos anteriormente y encontraremos un archivo txt con el nombre (matricula)
+en ella encontraras la información que hemos digitado.
+
+Si digitamos un codigo invalido aparecera el siguiente mensaje (Curso no existe, compruebe la id del curso y vuelva a intentar) y aparecera de nuevo el listado de
+cursos disponibles.

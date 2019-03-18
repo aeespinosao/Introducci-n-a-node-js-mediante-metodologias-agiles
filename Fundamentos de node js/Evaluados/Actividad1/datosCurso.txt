@@ -1,0 +1,2 @@
+El estudiante: true con numero cedula: 12345
+Se inscribio al curso: NodeJS que tiene una duracion de 32 horas y un valor de $0
